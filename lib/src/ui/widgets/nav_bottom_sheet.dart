@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/src/values/colors.dart' as colors;
+import './../values/colors.dart' as colors;
 
 import 'card_view.dart';
 import 'text.dart';

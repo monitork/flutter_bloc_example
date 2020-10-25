@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_bloc/src/values/colors.dart' as colors;
-import 'package:flutter_bloc/src/values/dimens.dart' as dimens;
+import './../values/colors.dart' as colors;
+import './../values/dimens.dart' as dimens;
 
 class EditText extends StatefulWidget {
   final bool autofocus;

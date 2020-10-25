@@ -1,6 +1,6 @@
-import 'package:flutter_bloc/src/helpers/connection.helper.dart';
+import 'package:flutter_bloc/core/helpers/connection.helper.dart';
+import 'package:flutter_bloc/data/sources/network/auth.service.dart';
 import 'package:flutter_bloc/src/models/response.model.dart';
-import 'package:flutter_bloc/src/repositories/sources/network/auth.service.dart';
 
 class AuthRepository {
   AuthService api = AuthService();

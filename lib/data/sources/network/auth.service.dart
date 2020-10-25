@@ -1,9 +1,10 @@
-import 'package:flutter_bloc/src/helpers/http/http.helper.dart';
-import 'package:flutter_bloc/src/helpers/storage/storage.helper.dart';
-import 'package:flutter_bloc/src/helpers/storage/storage.keys.dart';
+
+import 'package:flutter_bloc/core/helpers/http/http.helper.dart';
+import 'package:flutter_bloc/core/helpers/storage/storage.helper.dart';
+import 'package:flutter_bloc/core/helpers/storage/storage.keys.dart';
 import 'package:flutter_bloc/src/models/response.model.dart';
 import 'package:flutter_bloc/src/models/user.model.dart';
-import './base/endpoints.dart' as Endpoints;
+import 'base/endpoints.dart' as Endpoints;
 
 class AuthService{
   Future<ResponseModel> login(String login, String senha) async {

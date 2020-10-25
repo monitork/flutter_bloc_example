@@ -1,6 +1,6 @@
-import 'package:flutter_bloc/src/helpers/storage/storage.helper.dart';
-import 'package:flutter_bloc/src/helpers/storage/storage.keys.dart';
 import 'package:dio/dio.dart';
+import 'package:flutter_bloc/core/helpers/storage/storage.helper.dart';
+import 'package:flutter_bloc/core/helpers/storage/storage.keys.dart';
 
 class HttpHelper {
   static Dio _client;

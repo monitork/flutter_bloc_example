@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/src/blocs/base/bloc_provider.dart';
-import 'package:flutter_bloc/src/values/theme.dart' as appTheme;
+import 'package:flutter_bloc/src/ui/values/theme.dart' as appTheme;
 
-import 'package:flutter_bloc/src/pages/login/login.page.dart';
+import 'package:flutter_bloc/src/ui/pages/login/login.page.dart';
 
 class App extends StatelessWidget {
   @override

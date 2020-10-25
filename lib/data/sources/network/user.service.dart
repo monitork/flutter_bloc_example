@@ -1,7 +1,8 @@
-import 'package:flutter_bloc/src/helpers/http/http.helper.dart';
+
+import 'package:flutter_bloc/core/helpers/http/http.helper.dart';
 import 'package:flutter_bloc/src/models/response.model.dart';
 import 'package:flutter_bloc/src/models/user.model.dart';
-import './base/endpoints.dart' as Endpoints;
+import 'base/endpoints.dart' as Endpoints;
 
 class UserApiProvider{
   Future<ResponseModel> list() async {

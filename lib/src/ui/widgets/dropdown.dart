@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/src/values/colors.dart' as colors;
-import 'package:flutter_bloc/src/values/dimens.dart' as dimens;
+import './../values/colors.dart' as colors;
+import './../values/dimens.dart' as dimens;
 
 import 'modal.dart';
 import 'text.dart';

@@ -1,4 +1,4 @@
-import 'package:flutter_bloc/src/repositories/sources/local/tables/todo.table.dart';
+import 'package:flutter_bloc/data/sources/local/tables/todo.table.dart';
 import 'package:sqflite/sqflite.dart';
 import '../dbconfig.dart';
 

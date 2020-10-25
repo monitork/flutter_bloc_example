@@ -1,6 +1,5 @@
-import 'package:flutter/cupertino.dart';
-import 'package:flutter_bloc/src/repositories/auth.repository.dart';
-import 'package:flutter_bloc/src/widgets/toast.dart';
+import 'package:flutter_bloc/data/auth.repository.dart';
+import 'package:flutter_bloc/src/ui/widgets/toast.dart';
 import 'package:rxdart/rxdart.dart';
 
 import 'base/base.bloc.dart';

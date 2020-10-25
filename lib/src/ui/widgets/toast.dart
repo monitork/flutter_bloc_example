@@ -1,6 +1,6 @@
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:flutter_bloc/src/values/colors.dart' as colors;
-import 'package:flutter_bloc/src/values/dimens.dart' as dimens;
+import './../values/colors.dart' as colors;
+import './../values/dimens.dart' as dimens;
 
 class CustomToast {
   static void show(String msg) => Fluttertoast.showToast(

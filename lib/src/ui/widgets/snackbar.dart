@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/src/values/colors.dart' as colors;
-import './text.dart';
+import './../values/colors.dart' as colors;
+import 'text.dart';
 
 class CustomSnackbar {
   CustomSnackbar (GlobalKey<ScaffoldState> scaffoldKey, { String message, Function action, String actionMessage }) {

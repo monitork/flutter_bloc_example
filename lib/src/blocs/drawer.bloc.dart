@@ -1,8 +1,8 @@
-import 'package:flutter_bloc/src/helpers/nav/nav_no_animation.dart';
-import 'package:flutter_bloc/src/helpers/storage/storage.helper.dart';
-import 'package:flutter_bloc/src/helpers/storage/storage.keys.dart';
-import 'package:flutter_bloc/src/pages/login/login.page.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_bloc/core/helpers/nav/nav_no_animation.dart';
+import 'package:flutter_bloc/core/helpers/storage/storage.helper.dart';
+import 'package:flutter_bloc/core/helpers/storage/storage.keys.dart';
+import 'package:flutter_bloc/src/ui/pages/login/login.page.dart';
 
 class DrawerBloc extends ChangeNotifier {
   void logout(BuildContext context) {
